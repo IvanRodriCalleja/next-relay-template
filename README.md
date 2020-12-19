@@ -9,10 +9,10 @@ The idea of this repo is to find the best way of configure [Relay](https://relay
 
 ### Run the project
 
-1- `npm install -g yarn //dedw` (Update yarn to latest v1)
-2- `yarn set version berry` (Set yarn 2 in the project)
-3- `yarn`
-4- `yarn dev`
+    1- npm install -g yarn (Update yarn to latest v1)
+    2- yarn set version berry (Set yarn 2 in the project)
+    3- yarn
+    4- yarn dev
 
 ### Configure editor (VS Code)
 
