@@ -22,3 +22,4 @@ The idea of this repo is to find the best way of configure [Relay](https://relay
     * Press `ctrl+shift+p` in a TypeScript file
     * Choose **"Select TypeScript Version"**
     * Pick **"Use Workspace Version"**
+* Install [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
