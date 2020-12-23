@@ -23,3 +23,4 @@ The idea of this repo is to find the best way of configure [Relay](https://relay
     * Choose **"Select TypeScript Version"**
     * Pick **"Use Workspace Version"**
 * Install [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+* Install [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)

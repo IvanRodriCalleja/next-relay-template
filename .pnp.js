@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:14.14.14"],
             ["@types/react", "npm:17.0.0"],
             ["next", "virtual:09b5c8c545abd4dbaae11bbad4aa12f62e256e582bf79adb7c9680075907006e7c7da7498ee37e0e87bebbce2985c6021487f3a702b65245778f6c17d1586817#npm:10.0.3"],
+            ["prettier", "npm:2.2.1"],
             ["react", "npm:17.0.1"],
             ["react-dom", "virtual:09b5c8c545abd4dbaae11bbad4aa12f62e256e582bf79adb7c9680075907006e7c7da7498ee37e0e87bebbce2985c6021487f3a702b65245778f6c17d1586817#npm:17.0.1"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
@@ -4076,6 +4077,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:14.14.14"],
             ["@types/react", "npm:17.0.0"],
             ["next", "virtual:09b5c8c545abd4dbaae11bbad4aa12f62e256e582bf79adb7c9680075907006e7c7da7498ee37e0e87bebbce2985c6021487f3a702b65245778f6c17d1586817#npm:10.0.3"],
+            ["prettier", "npm:2.2.1"],
             ["react", "npm:17.0.1"],
             ["react-dom", "virtual:09b5c8c545abd4dbaae11bbad4aa12f62e256e582bf79adb7c9680075907006e7c7da7498ee37e0e87bebbce2985c6021487f3a702b65245778f6c17d1586817#npm:17.0.1"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
@@ -4692,6 +4694,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tar-fs", "npm:2.1.1"],
             ["tunnel-agent", "npm:0.6.0"],
             ["which-pm-runs", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["prettier", [
+        ["npm:2.2.1", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.2.1-e0670992f8-92c6c9f4b8.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:2.2.1"]
           ],
           "linkType": "HARD",
         }]
