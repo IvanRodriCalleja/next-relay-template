@@ -3502,6 +3502,7 @@ fsevents@~2.1.2:
     "@types/node": ^14.14.14
     "@types/react": ^17.0.0
     next: ^10.0.3
+    prettier: ^2.2.1
     react: ^17.0.1
     react-dom: ^17.0.1
     typescript: ^4.1.3
@@ -4119,6 +4120,15 @@ fsevents@~2.1.2:
   bin:
     prebuild-install: bin.js
   checksum: 81ff157668dc26349e1f8076fce0ba990f45481e39a64645efad60c9ae2d61e73e3c420d56f5f38fbe6dc3275e8e27067d2613d941c778f41658a6110e544130
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "prettier@npm:2.2.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 92c6c9f4b87eba1f28466edee57dd18c80d00b858edda77d46d1950d20e6e302b68ee255fc91133ba931e63c4577b5ae30da194d9626a8f3c0177778b91bf056
   languageName: node
   linkType: hard
 
