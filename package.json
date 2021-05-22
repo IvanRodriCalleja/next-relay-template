@@ -1,25 +1,18 @@
 {
   "name": "next-relay-template",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/IvanRodriCalleja/next-relay-template.git",
   "author": "IvanRodriCalleja <ivanrodricalleja@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "tsc": "tsc",
-    "lint": "eslint . --ext ts --ext tsx --ext js"
-  },
-  "dependencies": {
-    "next": "^10.2.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "dev": "lerna run dev --stream",
+    "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
-    "@types/node": "^15.0.1",
-    "@types/react": "^17.0.4",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "@yarnpkg/pnpify": "^3.0.0-rc.3",
@@ -28,6 +21,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "lerna": "^4.0.0",
     "prettier": "^2.2.1",
     "typescript": "^4.2.4"
   },
