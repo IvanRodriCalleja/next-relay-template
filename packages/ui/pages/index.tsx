@@ -1,5 +1,11 @@
 import { NextPage } from 'next';
 
-const Index: NextPage = () => <div>Index page</div>;
+import { MyComponent } from 'monorepo-components';
+
+const Index: NextPage = () => (
+	<div>
+		Index page <MyComponent name="custom" />
+	</div>
+);
 
 export default Index;
